@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://media.istockphoto.com/id/935729048/vector/vintage-hand-drawn-clocks-and-watches-time-vector-seamless-pattern.jpg?s=612x612&w=0&k=20&c=7iINHtnWowzpeVOPg61lRG7gjZjDvDN-IVe6PJcoEe8=');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.stopwatch {
+    background: #ffffffcf;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    padding: 20px 40px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(45deg, rgb(76, 74, 75), rgb(122, 122, 121));
+    color: white;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.buttons button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(45deg, rgb(76, 74, 75), rgb(122, 122, 121) );
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#laps li {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    border-radius: 5px;
+}
